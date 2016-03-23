@@ -10,7 +10,8 @@
     <p>                        <label for='login'>Логин:</label><input type='text' name='name' id='login'></p>
     <p>                        <label for='password'>Пароль:</label><input type='password' name='password' id='password'></p>
     <p>                        <label for='email'>E-mail:</label><input type='email' name='email' id='password'></p>
-    <p class='login-submit'>   <button type='submit' class='login-button' onClick='window.close(); window.opener.location.reload();'>Войти</button></p>
+    <p class='login-submit'>   <button type='submit' class='login-button' >Войти</button></p>
+
     <p class='forgot-password'><a href='/'>Забыл пароль?</a></p>
   </form>
 </html>"  ;

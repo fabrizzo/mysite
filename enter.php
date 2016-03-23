@@ -44,6 +44,8 @@
          { 
              $_SESSION['user'] = $_POST['name']; 
              $_SESSION['password'] = $_POST['password']; 
+			 echo "<script>window.opener.location.reload();</script>";
+			 echo "<script>window.close();</script>";
 		   } 
        } 
        else  
